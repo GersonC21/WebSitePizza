@@ -1,0 +1,76 @@
+
+
+.campos{
+    font-family: 'Pacifico',cursive; 
+    font-size: 30px;
+    font-weight: bold;
+    max-width: 700px;
+    width: 100%;
+    background: #eacaee;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 7px rgba(0,0,0, 0.1);
+    position: relative;
+}
+.formulario{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.formulario .campos{
+    margin-top: 30px;
+}
+.form{
+    width: 100%;
+    margin-top: 20px;
+}
+.form label{
+    color: #972ca5;
+}
+.campos .form input{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+    font-size: 1.04rem;
+    color: #a19e9e;
+    font-family: "Advent Pro", sans-serif;
+    margin-top: 8px;
+}
+.campos .mensaje input{
+    height: 100px;
+    align-content: s;
+
+}
+.campos .columna{
+    display: flex;
+    column-gap: 15px;
+    background-color: aqua;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ddd;
+    color: #a19e9e;
+    font-family: "Advent Pro", sans-serif;
+    margin-top: 8px;
+    border-radius: 6px;
+    font-size: 1.04rem;
+}
+
+.mapa{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+
+    margin-top: 75px;
+}
+.cont2{
+    display: flex;
+}
